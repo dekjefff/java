@@ -1,7 +1,5 @@
 //************************ DO NOT MODIFY *******************************//
-//jaffrey amaga phillips
-//6787094
-//section1
+
 import java.util.List;
 
 public class MovieTester {
