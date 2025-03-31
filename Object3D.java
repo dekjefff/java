@@ -1,7 +1,4 @@
 
-//Name:
-//ID:
-//Section:
 
 
 //********************** DO NOT MODIFY EXCEPT WHERE INDICATED **************************//
