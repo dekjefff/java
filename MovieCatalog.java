@@ -1,6 +1,4 @@
-//jaffrey amaga phillips
-//6787094
-//section1
+
 
 import java.io.BufferedWriter;
 import java.io.File;
