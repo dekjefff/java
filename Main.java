@@ -2,12 +2,21 @@
 public class Main {
 
 	public static void main(String[] args) {
-		String text = "hello world hello java set map java";
+		System.out.println(reverse("hello"));
+		System.out.println(reverse("Java123"));
+
+	}
+	
+	public static String reverse(String s) {
 		
-		WordCounter count = new WordCounter();
+		if(s.isEmpty()) {
+			
+			return s;
+		}
 		
-		count.counter(text);
+		return reverse(s.substring(1)) + s.charAt(0);
 		
 	}
-
+	
+	
 }
