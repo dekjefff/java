@@ -2,27 +2,21 @@
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.println(reverse("hello"));
+		System.out.println(reverse("Java123"));
 
-		
-
-		System.out.println(CountChar("banana", 'a'));
-	}
-
-	
-	public static int CountChar(String word , char c) {
-		
-		return CountCharHelper(word , c , 0 , 0);
-		
 	}
 	
-	public static int CountCharHelper(String word , char c , int index , int count) {
+	public static String reverse(String s) {
 		
-		if(index >= word.length()) return count;
-		
-		if(word.charAt(index) == c) {	
-			count++;
+		if(s.isEmpty()) {
+			
+			return s;
 		}
 		
-		return CountCharHelper(word , c , index + 1 , count);
+		return reverse(s.substring(1)) + s.charAt(0);
+		
 	}
+	
+	
 }
